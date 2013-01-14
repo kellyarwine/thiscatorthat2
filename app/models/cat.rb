@@ -6,7 +6,7 @@ validates_presence_of :picture
 
 
 def self.top_cat
-	order("yesvotes desc").limit(1).first
+	order("yesvotes desc").limit(5)
 end
 
 def self.two_random_cats

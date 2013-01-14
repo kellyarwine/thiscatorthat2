@@ -37969,3 +37969,56 @@ Served asset /cats.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-17 21:00:16 -0400
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-14 16:31:57 -0600
+Processing by CatsController#index as HTML
+  [1m[36mCat Load (0.2ms)[0m  [1mSELECT "cats".* FROM "cats" ORDER BY RANDOM() LIMIT 2[0m
+  [1m[35mCat Load (0.4ms)[0m  SELECT "cats".* FROM "cats" ORDER BY yesvotes desc LIMIT 5
+  Rendered cats/index.html.erb within layouts/application (18.6ms)
+Compiled cats.css  (28ms)  (pid 21173)
+Compiled home.css  (3ms)  (pid 21173)
+Compiled scaffolds.css  (44ms)  (pid 21173)
+Compiled application.css  (131ms)  (pid 21173)
+Compiled jquery.js  (2ms)  (pid 21173)
+Compiled jquery_ujs.js  (0ms)  (pid 21173)
+Compiled cats.js  (322ms)  (pid 21173)
+Compiled home.js  (68ms)  (pid 21173)
+Compiled application.js  (508ms)  (pid 21173)
+Completed 200 OK in 824ms (Views: 747.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-14 16:31:58 -0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-14 16:31:58 -0600
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-14 16:31:58 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cats.css?body=1" for 127.0.0.1 at 2013-01-14 16:31:58 -0600
+Served asset /cats.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-14 16:31:58 -0600
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-14 16:31:58 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cats.js?body=1" for 127.0.0.1 at 2013-01-14 16:31:58 -0600
+Served asset /cats.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-14 16:31:58 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-14 16:31:59 -0600
+Served asset /application.js - 304 Not Modified (6ms)
